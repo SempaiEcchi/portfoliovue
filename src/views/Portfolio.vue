@@ -7,6 +7,7 @@
       <SkewedImage/>
     </div>
     <StatsWidget/>
+    <YoutubeVideos/>
   </div>
 
 </template>
@@ -16,6 +17,7 @@ import SkewedImage from '@/components/SkewedImage.vue'
 import HeaderDescription from '@/components/HeaderDescription.vue'
 import animatef from '@/components/animation.ts'
 import StatsWidget from '@/components/StatsWidget.vue'
+import YoutubeVideos from '@/components/YoutubeVideos.vue'
 
 function extracted() {
   animatef(document.getElementById('projects_count'), 0, 10, 1000)
@@ -25,7 +27,7 @@ function extracted() {
 }
 
 @Options({
-  components: {StatsWidget, HeaderDescription, SkewedImage},
+  components: {YoutubeVideos, StatsWidget, HeaderDescription, SkewedImage},
   mounted: () => {
     console.log('mounted')
     extracted()

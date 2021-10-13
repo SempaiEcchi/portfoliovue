@@ -22,34 +22,28 @@
         <span>Firebase</span>
       </li>
       <li class="text-teal-900">
+        <span>Bitrise CI/CD</span>
+      </li>
+      <li class="text-teal-900">
         <span>HTML5/CSS3/JS/TypeScript</span>
       </li>
       <li class="text-teal-900">
         <span>Tailwind</span>
       </li>
     </ul>
-    <div class="flex flex-row space-x-4 pt-4">
-      <a target="_blank"
-         href="https://www.github.com/SempaiEcchi"> <img
-        class=" p-0 m-0 float-right shadow-xl h-auto rounded-full "
-        width="50"
-        src="../assets/github.png"
-        alt="Nah no portrait image, im a weeb"
-      /></a>
-      <a target="_blank"
-         href="https://www.upwork.com/ag/digitalnomadacademy/"> <img
-        class=" p-0 m-0 float-right shadow-xl h-auto rounded-full "
-        width="50"
-        src="../assets/upwork.png"
-        alt="Nah no portrait image, im a weeb"
-      /></a>
-    </div>
+    <p class="text-xl mt-2">Im versed in creating pixel perfect apps that use Firebase as a backend solution, but I can
+      deploy a
+      custom ktor backend with ease.</p>
+    <SocialMediaIconsWidget/>
   </div>
 
 </template>
 <script lang="ts">
+import SocialMediaIconsWidget from '@/components/SocialMediaIconsWidget.vue'
+
 export default {
-  name: 'HeaderDescription'
+  name: 'HeaderDescription',
+  components: {SocialMediaIconsWidget}
 }
 </script>
 <style scoped>
