@@ -31,9 +31,10 @@
         <span>Tailwind</span>
       </li>
     </ul>
-    <p class="text-xl mt-2">Im versed in creating pixel perfect apps that use Firebase as a backend solution, but I can
+    <p class="text-xl mt-2">Im versed in creating pixel perfect cross-platform apps using Firebase as a backend
+      solution, but I can
       deploy a
-      custom ktor backend with ease.</p>
+      custom Ktor backend if needed.</p>
     <SocialMediaIconsWidget/>
   </div>
 

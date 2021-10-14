@@ -2,7 +2,7 @@
 
   <div class="max-w-screen-xl m-auto">
     <div
-      class="bg-gray-100 shadow-xl container m-auto mx-auto mt-12 p-14 rounded-2xl text-center grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+      class="bg-gray-100 shadow-xl container m-auto mx-auto mt-12 p-14 rounded-3xl text-center grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-14 items-center">
       <HeaderDescription/>
       <SkewedImage/>
     </div>
