@@ -20,10 +20,11 @@ import StatsWidget from '@/components/StatsWidget.vue'
 import YoutubeVideos from '@/components/YoutubeVideos.vue'
 
 function extracted() {
-  animatef(document.getElementById('projects_count'), 0, 10, 1000)
-  animatef(document.getElementById('clients_count'), 0, 4, 1000)
-  animatef(document.getElementById('suicide_attempts'), 0, 10000, 1000)
-  animatef(document.getElementById('animes_watched'), 0, 1000, 1000)
+  const duration = 1777
+  animatef(document.getElementById('projects_count'), 0, 10, duration)
+  animatef(document.getElementById('clients_count'), 0, 4, duration)
+  animatef(document.getElementById('suicide_attempts'), 0, 10000, duration)
+  animatef(document.getElementById('animes_watched'), 0, 1000, duration)
 }
 
 @Options({
@@ -33,7 +34,7 @@ function extracted() {
     extracted()
   }
 })
-export default class About extends Vue {
+export default class Portfolio extends Vue {
 
 }
 </script>
